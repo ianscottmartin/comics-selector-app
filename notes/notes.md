@@ -6,6 +6,33 @@ users can see one comic
 users cans see their list of favorites
 users can remove a comic form their favorites
 
+todo list
+-set up pipenv
+-set up pipfile dependencies
+alembic
+sqlalchemy 1.4.41
+faker?
+ipdb
+-create database
+create user model migrations
+cerate user table
+create comic model migrations
+create comic table
+create user liked comics table
+
+    CRUD to do
+    -cCeate list of liked comics
+    -Read
+        -READ all
+            -display all comics
+            -display liked comics
+            -READ 1
+                -display 1 comic by id
+
+    -Update
+        -remove liked comic
+    _Delete
+
 OOP class for comic with attributes
 class of USer with attributes
 
@@ -57,7 +84,7 @@ Users:
 -email string not null, unique
 -name string not null , unique
 
-Comics 
+Comics
 many to many relationship with users
 -id integer not null unique primary key
 -publisher string not null
